@@ -20,3 +20,5 @@ sub yoink_symbols {
         ${$yoinker_ref}{$sym_name} = ${$yoinkee_ref}{$sym_name};
     }
 };
+
+1;
